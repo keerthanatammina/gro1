@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Delivery</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a325eae723.js" crossorigin="anonymous"></script>
+    <style>
+        nav h1{
+            font-size: 60px;
+            color: black;
+        }
+        nav a{
+            font-size: 20px;
+            margin: 15px;
+            color: black;
+            font-weight: bold;
+        }
+      .head1{
+        padding-bottom: 10px;
+        font-size: 25px;
+
+      }
+      .head2{
+        font-size: 20px;
+        color: red;
+      }
+      ul{
+        font-size: 30px;
+      }
+      li{
+        font-size:20px;
+      }
+      .bg1 video{
+        height: 550px;
+        width: 550px;
+        padding: 10px;
+      }
+    </style>
+</head>
+<body>
+    
+
+
+    <!--button delivery section-->
+    <div class="bg1">
+        <div class="container">
+            <h1 class="text-center pt-3 pb-3" style="color: red; font-size:50px">DELIVERY SECTION</h1>
+            <div class="row mt-4">
+              <div class="col-12 col-lg-6">
+                <video src="delivery.mp4" class="slider" autoplay loop muted></video>
+	                     </video>
+              </div>
+
+                <div class="col-12 col-lg-6">
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Enter your name">
+                        <input type="number" class="form-control mt-3" placeholder="91+ Enter your mobile number">
+                        <input type="email" class="form-control mt-3" placeholder="Enter your email">
+                        <input type="text" class="form-control mt-3" placeholder="Enter your country">
+                        <input type="text" class="form-control mt-3" placeholder="Enter your state">
+                        <input type="number" class="form-control mt-3" placeholder="Enter your pincode">
+                        <input type="text" class="form-control mt-3" placeholder="Enter another mobile number">
+                        <input type="text" class="form-control mt-3" placeholder="Enter Your Permanent Address">
+                        
+                        <div class="mb-3 mt-3">
+                            <!--<textarea class="form-control" rows="5" id="comment" name="text" placeholder="Feedback">
+
+                            </textarea>-->
+                            <label for="payment">Choose payment option:</label>
+
+                                 <select id="delivery">
+                                       <option value="cash on delivery"><a href="#">cash on delivery</a></option>
+                                       <option value="paytm"><a href="https://www.paytm.com">paytm</a></option>
+                                       <option value="visa"><a href="#">visa</a></option>
+                                        <option value="google pay"><a href="https://www.google pay.com">google pay</a></option>
+                                        <option value="phonepe"><a href="https://www.phonepe.com">phone pe</a></option>
+                                </select>
+
+                        </div>
+                    </form>
+                    <h1 class="head2">Please check your all details are correct are not which you are given above</h1>
+                    <button class="btn btn-success mt-3">Place Order</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
